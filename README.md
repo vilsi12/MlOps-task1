@@ -1,4 +1,10 @@
 # MlOps-task1
+Using this tools- 
+Jenkins
+Git
+Github 
+Docker
+
 TASK-1 
 
 JOB#1
@@ -12,6 +18,7 @@ JOB#3
 Manually the QA team will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger #job 2
 
 Approach
+
 Firstly, I created a local repository in my base OS and created a branch(dev). In this repository, I created a file called 'index.html'.
 
 To automatically push it to GitHub whenever I commit any change in the file, I created a hook.
